@@ -10,6 +10,7 @@ import pluginFixSearchResults     from './plugin-fix-search-results';
 import pluginFixZoomImage         from './plugin-fix-zoomimage';
 import pluginReadyTransition      from './plugin-ready-transition';
 import pluginResponsiveTables     from './plugin-responsive-tables';
+import pluginSidebarNavToggles    from './plugin-sidebar-nav-toggles';
 import { version as pkgVersion }  from '../../package.json';
 
 
@@ -50,6 +51,7 @@ if (window) {
             pluginReadyTransition,
             pluginFixCoverHeader,
             pluginFixNavbarMenus,
+            pluginSidebarNavToggles,
             pluginFixPrismThemes,
             pluginFixReadyState,
             pluginResponsiveTables

@@ -16,6 +16,41 @@
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-github/prism-github.css" data-style-group="themeable"> -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs-themes/dist/midnight.min.css" data-style-group="themeable"> -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark/prism-onedark.css" data-style-group="themeable"> -->
+
+    <style>
+        :root {
+            --sidebar-nav-pagelink-background-image: none;
+            --sidebar-nav-pagelink-background-image--active: none;
+            --sidebar-nav-pagelink-background-image--collapse: none;
+            --sidebar-nav-pagelink-background-image--loaded: none;
+            --sidebar-nav-link-before-content: none;
+            --sidebar-nav-link-before-content--active: none;
+            --sidebar-nav-link-before-content-l3: none;
+            --sidebar-nav-link-before-content-l3--active: none;
+        }
+
+        .sidebar-nav ul ul {
+            display: none;
+        }
+
+        .sidebar-nav .expanded > ul {
+            display: block;
+        }
+
+        .sidebar-nav .parent > a {
+            /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' stroke-width='2' stroke='%23222222' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='9 6 15 12 9 18' /%3E%3C/svg%3E") !important; */
+            /* background-repeat: no-repeat; */
+            /* background-position: center left; */
+        }
+
+        .sidebar-nav .parent.expanded > a {
+            /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' stroke-width='2' stroke='%23222222' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='6 9 12 15 18 9' /%3E%3C/svg%3E") !important; */
+        }
+
+        .sidebar-nav .active.parent.expanded > a {
+            /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' stroke-width='2' stroke='%230b87da' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='6 9 12 15 18 9' /%3E%3C/svg%3E") !important; */
+        }
+    </style>
 </head>
 
 <body>
